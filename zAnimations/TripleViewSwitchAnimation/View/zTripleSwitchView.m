@@ -36,6 +36,8 @@
 
 - (void)setAnimationParam:(zTripleAnimationParam *)animationParam
 {
+    _animationParam = animationParam;
+    
     self.transform = animationParam.transform;
     self.alpha = animationParam.alpha;
     self.center = animationParam.center;
